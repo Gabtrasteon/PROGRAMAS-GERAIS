@@ -1,0 +1,27 @@
+body{
+    margin: 10px 0px 0px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: rgb(32, 32, 32);
+    color: white;
+}
+.cartao{
+    width: 500px;
+    background-color: rgb(43, 43, 43);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 2px 2px 40px rgb(116, 116, 116);
+}
+table{
+    border-radius: 10px;
+}
+img{
+    border-radius: 10px;
+}
