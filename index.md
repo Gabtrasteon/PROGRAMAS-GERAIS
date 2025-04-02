@@ -1,4 +1,4 @@
 ---
 layout: redirect
-redirect: /PROGRAMAS-HTML/index.html
+redirect: /PROGRAMAS-GERAIS/PROGRAMAS-HTML/index.html
 ---
