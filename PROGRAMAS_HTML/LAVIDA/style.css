@@ -1,0 +1,41 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    flex-direction: column;
+}
+header{
+    position: relative;
+    top: 10px;
+    width: 98%;
+    box-shadow: 1px 1px 10px rgba(255, 212, 71, 0.5);
+    height: 100px;
+    border-radius: 10px;
+    font-family: "Exile", system-ui;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    color: rgba(0, 0, 0, 0.822);
+    margin: 0px 0px 40px 0px;
+    font-size: 20px;
+    align-items: center;
+}
+#conteudo{
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+.box{
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px rgba(255, 212, 71, 0.5);
+    text-align: top;
+}
+.box:nth-child(1){
+    width: 65%;
+}
+.box:nth-child(2){
+    width: 33%;
+}
