@@ -18,6 +18,9 @@ header{
     align-items: center;
     justify-content: space-between;
 }
+p{
+    font-size: 20px;
+}
 header input{
 
     background-color: none;
@@ -42,7 +45,7 @@ header input{
 main{
     padding: 10px 0px 10px 0px;
     width: 98%;
-    border: 1px solid white;
+
     border-radius: 5px;
     position: relative;
     top: 25px;
@@ -54,7 +57,7 @@ main{
 #crd {
     margin-top: 10px;
     width: 95%;
-    border: 1px solid white; 
+    border: 1px solid rgb(156, 156, 156); 
     border-radius: 5px;
     position: relative;
     color: white; 
@@ -101,7 +104,6 @@ button{
 table{
     width: 100%; 
     border-collapse: collapse; 
-    font-family: Arial, sans-serif; 
     margin: 20px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     
 }
