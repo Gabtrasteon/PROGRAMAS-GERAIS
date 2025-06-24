@@ -101,9 +101,12 @@ button{
     box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 table{
-    width: 100%; 
-    border-collapse: collapse; 
-    margin: 20px 0; box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    BACKGROUND-COLOR: #00c7ff54;
+    BORDER-RADIUS: 10PX;
     
 }
 
