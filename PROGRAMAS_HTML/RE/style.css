@@ -2,7 +2,7 @@ body{
     margin: 0px;
     background: linear-gradient(to bottom, #410076, #5656ff);
     width: 100%;
-    
+    font-family: "Raleway", sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
