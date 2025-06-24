@@ -1,6 +1,6 @@
 body{
     margin: 0px;
-    background: linear-gradient(to bottom, #410076, #5656ff);
+    background: linear-gradient(to bottom, #410076, #5656ff, #00FFFF); /* Adicionada a cor ciano (#00FFFF) */
     width: 100%;
     font-family: "Raleway", sans-serif;
     display: flex;
