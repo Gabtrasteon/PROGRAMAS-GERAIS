@@ -30,8 +30,23 @@ header{
     height: 45px;
 }
 .parte1{
+    display: flex;
+    padding: 10px;
     margin-top: 50px;
     height: 400px;
     width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+.recentes{
     border: 1px solid white;
+    height: 90%;
+    width: 40%;
+    border-radius: 5px;
+}
+.seujogo{
+    border: 1px solid white;
+    height: 90%;
+    width: 59%;
+    border-radius: 5px;
 }
