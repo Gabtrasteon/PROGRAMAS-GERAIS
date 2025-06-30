@@ -38,14 +38,14 @@ header{
     align-items: center;
 }
 .recentes{
-    border: 1px solid white;
     height: 90%;
     width: 40%;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
 }
 .seujogo{
-    border: 1px solid white;
     height: 90%;
     width: 59%;
     border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.575);
 }
