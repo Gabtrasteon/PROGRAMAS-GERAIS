@@ -29,3 +29,9 @@ header{
     width: 40px;
     height: 45px;
 }
+.parte1{
+    margin-top: 50px;
+    height: 400px;
+    width: 100%;
+    border: 1px solid white;
+}
