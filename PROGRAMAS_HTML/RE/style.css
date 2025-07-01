@@ -7,6 +7,7 @@ body{
     flex-direction: column;
     align-items: center;
 }
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
 header{
     margin-top: 10px;
     height: 50px;
@@ -16,6 +17,26 @@ header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.fixed-small-box {
+    position: fixed;
+    bottom: 139px;
+    right: 5px;
+    border-radius: 105px;
+    width: 100px;
+    height: 55px;
+    background-color: #ff8c00;
+    border: 1px solid #ffffff;
+    text-align: end;
+    font-family: "Pixelify Sans";
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-size: 20px;
+    display: flex;
+    color: white;
+    box-shadow: 5px 5px 10px black;
+    z-index: 1000;
+    align-items: center;
 }
 p{
     font-size: 20px;
