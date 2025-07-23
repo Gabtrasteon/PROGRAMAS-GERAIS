@@ -12,14 +12,6 @@ section{
     border-radius: 20px;
     margin: 10px;
     box-shadow: 5px 10px 10px rgba(0, 0, 0, 0.521);
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-}
-#msg{
-    font-size: 29px;
-    margin: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 footer{
     margin: 10px;
@@ -28,4 +20,9 @@ footer{
 img{
     width: 250px;
     border-radius: 100%;
+}
+#res{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
