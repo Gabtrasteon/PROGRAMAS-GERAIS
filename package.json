@@ -1,0 +1,16 @@
+{
+  "name": "html-projects-collection",
+  "version": "1.0.0",
+  "description": "Collection of HTML projects and exercises",
+  "main": "index.js",
+  "scripts": {
+    "build": "echo 'Build completed - static HTML files ready'",
+    "start": "echo 'Starting local server...' && python3 -m http.server 8000",
+    "dev": "python3 -m http.server 8000"
+  },
+  "keywords": ["html", "css", "javascript", "web-development"],
+  "author": "Gabtraste",
+  "license": "MIT",
+  "devDependencies": {},
+  "dependencies": {}
+}
