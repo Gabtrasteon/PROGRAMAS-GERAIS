@@ -1,6 +1,6 @@
 body{
     margin: 10px 0px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif !important;
 }
 body::before {
   content: "";
@@ -20,6 +20,7 @@ header{
     color: white;
     border-radius: 10px;
     width: 90%;
+    padding: 10px;
     border: 1px solid orangered;
     background-color: rgba(0, 0, 0, 0.349);
 }
@@ -35,6 +36,7 @@ section{
     color: white;
     border-radius: 10px;
     width: 95%;
+    font-size: large;
     padding: 3px;
     display: flex;
     justify-content: center;
