@@ -69,7 +69,7 @@
             </aside>
             <aside>
                 <div>Simples duplo PM</div>
-                <span id="spm">R$ 22,00</span>
+                <span id="sdpm">R$ 22,00</span>
             </aside>
             <aside>
                 <div>Frango</div>
@@ -133,35 +133,35 @@
             </aside>
             <aside>
                 <div>X Bacon</div>
-                <span id="spm">R$ 38,00</span>
+                <span id="xbacon">R$ 38,00</span>
             </aside>
             <aside>
                 <div>X Begg</div>
-                <span id="spm">R$ 40,00</span>
+                <span id="xbegg"">R$ 40,00</span>
             </aside>
             <aside>
                 <div>X BF</div>
-                <span id="spm">R$ 43,00</span>
+                <span id="xbf">R$ 43,00</span>
             </aside>
             <aside>
                 <div>X BC</div>
-                <span id="spm">R$ 43,00</span>
+                <span id="xbc">R$ 43,00</span>
             </aside>
             <aside>
                 <div>X Misto</div>
-                <span id="spm">R$ 43,00</span>
+                <span id="xmisto">R$ 43,00</span>
             </aside>
             <aside>
                 <div>X Tudo</div>
-                <span id="spm">R$ 58,00</span>
+                <span id="xtudo">R$ 58,00</span>
             </aside>
             <aside>
                 <div>X Vegetariano</div>
-                <span id="spm">R$ 19,00</span>
+                <span id="xvegetariano">R$ 19,00</span>
             </aside>
             <aside>
                 <div>X Fit</div>
-                <span id="spm">R$ 16,00</span>
+                <span id="xfit">R$ 16,00</span>
             </aside>
         </div>
         <div class="tab-pane fade" id="bebidas" role="tabpanel" aria-labelledby="bebidas-tab">
@@ -185,7 +185,7 @@
                 </aside>
                 <aside>
                     <div>Refri mini</div>
-                    <span id="refr-mini">R$ 3,00</span>
+                    <span id="refri-mini">R$ 3,00</span>
                 </aside>
                 <aside>
                     <div>Refri 290ML</div>
@@ -224,13 +224,55 @@
                     <span id="natu-900">R$ 16,00</span>
                 </aside>
             </aside>
-            <aside id="bebida" style="background-color: rgb(39 0 0);">
+            <aside id="bebida"">
                 <div>Alcoólico</div>
                 <aside id="bebida">
-                    <div><strong>Cerveja Lata</strong></div>
+                    <div style="font-size: 25px;"><strong>Cerveja Lata</strong></div>
                     <aside>
                         <div>Brahma</div>
                         <span id="brahma">R$ 6,00</span>
+                    </aside>
+                    <aside>
+                        <div>Shol</div>
+                        <span id="skol">R$ 6,00</span>
+                    </aside>
+                    <aside>
+                        <div>Antarctica</div>
+                        <span id="boa">R$ 6,00</span>
+                    </aside>
+                    <aside>
+                        <div>Amstel</div>
+                        <span id="amstel">R$ 6,00</span>
+                    </aside>
+                    <aside>
+                        <div>Original</div>
+                        <span id="original"">R$ 6,00</span>
+                    </aside>
+                    <aside>
+                        <div>Glacial</div>
+                        <span id="glacial"">R$ 5,00</span>
+                    </aside>
+                </aside>
+                <aside id="bebida">
+                    <div style="font-size: 25px;"><strong>Long Neck</strong></div>
+                    <aside>
+                        <div>Sol</div>
+                        <span id="sol">R$ 10,00</span>
+                    </aside>
+                    <aside>
+                        <div>Heineken</div>
+                        <span id="heineken">R$ 10,00</span>
+                    </aside>
+                </aside>
+                <aside id="bebida">
+                    <div style="font-size: 25px;"><strong>Cerveja Zero</strong></div>
+                    <aside>
+                        <div>Heineken Zero</div>
+                        <span id="zero-heineken">R$ 10,00</span>
+                    </aside>
+                    <aside>
+                        <div>Brahma Zero</div>
+                        <span id="zero-brahma"">R$ 7,00</span>
                     </aside>
                 </aside>
             </aside>
@@ -277,6 +319,23 @@
         </div>
     </div>
 </div>
+    </div>
+    <!-- Modal de Descrição -->
+    <div class="modal fade" id="itemModal" tabindex="-1" aria-labelledby="itemModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="itemModalLabel">Descrição do Item</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body" id="itemDescription">
+            <!-- A descrição será inserida aqui via JavaScript -->
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Fechar</button>
+          </div>
+        </div>
+      </div>
     </div>
     <footer>
         <p style="margin: 0px;" id="ano"></p>
