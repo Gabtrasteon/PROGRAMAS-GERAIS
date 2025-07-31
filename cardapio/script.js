@@ -1,6 +1,13 @@
 let data = new Date();
 let ano = data.getFullYear();
 document.getElementById("ano").innerText = `© ${ano} Claudio Lanches`;
+
+window.onload = function () {
+  // Mostra o modal de aviso logo que a página carregar
+  const avisoModal = new bootstrap.Modal(document.getElementById("avisoModal"));
+  avisoModal.show();
+}
+
 // Adicione este objeto com as descrições dos itens
 const descricoes = {
   s: "Salsicha, tomate, katchup e maionese",
@@ -24,16 +31,16 @@ const descricoes = {
   xcalab:
     "Presunto, mussarela, tomate, hamburguer, calabresa, katchup e maionese",
   //parei aqui aaaaaaaa
-  xfrango: "Pão, filé de frango, alface, tomate, maionese",
-  xbacon: "Pão, hambúrguer, bacon, alface, tomate, maionese",
-  xbegg: "Pão, hambúrguer, bacon, ovo, alface, tomate, maionese",
-  xbf: "Pão, hambúrguer, bacon, frango, alface, tomate, maionese",
-  xbc: "Pão, hambúrguer, bacon, calabresa, alface, tomate, maionese",
-  xmisto: "Pão, hambúrguer, frango, calabresa, alface, tomate, maionese",
+  xfrango: "Presunto, mussarela, tomate, hamburguer, frango, katchup e maionese",
+  xbacon: "Presunto, mussarela, tomate, hamburguer, bacon, katchup e maionese",
+  xbegg: "Presunto, mussarela , tomate, hamburger, bacon, ovo, katchup e maionese",
+  xbf: "Presunto, mussarela, tomate, hamburguer, bacon, frango,katchup e maionese",
+  xbc: "Presunto, mussarela, tomate, hamburguer, bacon, calabresa,katchup e maionese",
+  xmisto: "Presunto, mussarela, tomate, hamburguer, calabresa, frango,katchup e maionese",
   xtudo:
-    "Pão, 2 hambúrgueres, bacon, frango, calabresa, ovo, presunto, mussarela, alface, tomate, maionese",
-  xvegetariano: "Pão, queijo, alface, tomate, maionese",
-  xfit: "Pão integral, peito de peru, queijo branco, alface, tomate",
+    "Hamburguer, presunto, mussarela, frango, bacon, calabresa, ovo, tomate, maionese e katchup",
+  xvegetariano: "Ovo, queijo, tomate, alface, maionese e katchup",
+  xfit: "Pão fit, frango, queijo, tomate e alface",
 };
 
 // Adicione este código para lidar com os cliques nos itens
@@ -112,6 +119,8 @@ const precos = {
   porc: document.getElementById("porc"),
   enroladinho: document.getElementById("enroladinho"),
 };
+
+//cachorros
 precos.s.innerHTML = "R$ 14,00";
 precos.sd.innerHTML = "R$ 16,00";
 precos.spm.innerHTML = "R$ 20,00";
@@ -124,6 +133,8 @@ precos.bf.innerHTML = "R$ 37,00";
 precos.bc.innerHTML = "R$ 37,00";
 precos.spc.innerHTML = "R$ 38,00";
 precos.mistoq.innerHTML = "R$ 14,00";
+
+//lanches
 precos.salad.innerHTML = "R$ 19,00";
 precos.burguer.innerHTML = "R$ 16,00";
 precos.galinha.innerHTML = "R$ 39,00";
@@ -138,6 +149,8 @@ precos.xmisto.innerHTML = "R$ 43,00";
 precos.xtudo.innerHTML = "R$ 58,00";
 precos.xvegetariano.innerHTML = "R$ 19,00";
 precos.xfit.innerHTML = "R$ 16,00";
+
+//suco
 precos.sucoVale.innerHTML = "R$ 7,00";
 precos.lataVale.innerHTML = "R$ 7,00";
 precos.monster.innerHTML = "R$ 13,00";
@@ -152,6 +165,8 @@ precos.agua.innerHTML = "R$ 4,00";
 precos.natu300.innerHTML = "R$ 9,00";
 precos.natu500.innerHTML = "R$ 11,00";
 precos.natu900.innerHTML = "R$ 16,00";
+
+//cervejas
 precos.brahma.innerHTML = "R$ 6,00";
 precos.skol.innerHTML = "R$ 6,00";
 precos.boa.innerHTML = "R$ 6,00";
@@ -162,12 +177,15 @@ precos.sol.innerHTML = "R$ 10,00";
 precos.heineken.innerHTML = "R$ 10,00";
 precos.zeroHeineken.innerHTML = "R$ 10,00";
 precos.zeroBrahma.innerHTML = "R$ 7,00";
+
+//adicionais
 precos.adf.innerHTML = "R$ 8,00";
 precos.adb.innerHTML = "R$ 8,00";
 precos.adc.innerHTML = "R$ 8,00";
 precos.advina.innerHTML = "R$ 2,00";
 precos.adham.innerHTML = "R$ 3,00";
 precos.adpm.innerHTML = "R$ 8,00";
+//porções
 precos.porf.innerHTML = "R$ 40,00";
 precos.porc.innerHTML = "R$ 35,00";
 precos.enroladinho.innerHTML = "R$ 10,00";
